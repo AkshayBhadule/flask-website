@@ -15,4 +15,8 @@ mode = "sequential"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
+args = "nix-env -iA nixpkgs.python3"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
 args = "python3 app.py"
