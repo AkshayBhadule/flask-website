@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+   padding-top: 4.3rem;
+}
+
+.header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container, .section3 {
+    padding: 20px;
+}
+
+img{
+    width: 98vw;
+    height: 400px;
+   margin: 0.5rem;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+}
+button:hover {
+  background-color: #00bfff;      /* New color on hover */
+  color: white;
+  transform: scale(1.05);         /* Slight grow effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.container h2{
+   margin-bottom: 1rem;
+}
+.card{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.card-header h3, h5{
+   font-weight:normal;
+   padding: 0.5rem 0.1px;
+}
+
+.form-section {
+    background-color: white;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-section h2 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 1.5rem;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #003366;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form input[type="file"] {
+    padding: 5px;
+}
+
+form textarea {
+    resize: vertical;
+}
